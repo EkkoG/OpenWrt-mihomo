@@ -64,6 +64,7 @@ jobs:
           INDEX: 1
           KEY_BUILD: ${{ secrets.KEY_BUILD }}
           NO_REFRESH_CHECK: true
+          V: s
 
       - name: Compress
         run: |
